@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home'
-import Students from './components/Students'
+import Students from './components/studentpage/Students'
 import Container from './Container';
 import {
 	BrowserRouter as Router,
