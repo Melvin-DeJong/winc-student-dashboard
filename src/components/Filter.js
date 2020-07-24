@@ -26,11 +26,49 @@ function Filter(props){
             </div>
         </form>
         <form onChange={props.handleFilterChange} className="filter-students">
-        <h3>Filter by Student</h3>
+           
+            <h2 id="underConstruction"><i>Under Construction!</i></h2>
+        <h3>Select students:</h3>
         <div id="input-student-container">
             <label>
                 <input type="checkbox" name="studentFilter" />
-                
+                Student 1 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 2 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 3 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 4 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 5 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 6 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 7 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 8 
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 9
+            </label>
+            <label>
+                <input type="checkbox" name="studentFilter" />
+                Student 10 
             </label>
             
 
