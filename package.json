@@ -1,5 +1,6 @@
 {
-  "name": "w6d4-student-dashboard",
+  "name": "winc-student-dashboard",
+  "homepage": "http://winc-student-dashboard.bymelvin.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
