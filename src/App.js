@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './components/Home'
 import Students from './components/studentpage/Students'
+import WincLogo from './assets/logo_winc.jpg'
 import Container from './Container';
 import {
 	BrowserRouter as Router,
@@ -17,7 +18,11 @@ function App() {
 		  <div className="app">
 			<nav>
 			  <ul className="menu">
-				<li><h1>Winc Student Dashboard </h1></li>  
+				<li>
+					<img id="menuLogoWinc" src={WincLogo} alt="logowinc" />
+				</li>
+				<li>
+					<h1>Student Dashboard </h1></li>  
 				<li>
 				  <Link className="link" to="/"><p>Home</p></Link>
 				</li>
@@ -30,8 +35,7 @@ function App() {
 			  </ul>
 			</nav>
 	
-			{/* A <Switch> looks through its children <Route>s and
-				renders the first one that matches the current URL. */}
+			
 			<Switch>
 			  <Route path="/container">
 				<Container />
