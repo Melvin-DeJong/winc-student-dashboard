@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+/*Menu*/
+.menu {
+    background-color: orange;
+    margin-top: 0;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.menu h1{
+    padding-top: 10px;
+    padding-bottom: auto;
+    padding-right: 10px;
+}
+.menu p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.menu li{
+    float: left;
+    list-style: none;
+}
+.link{
+    min-width: 100px;
+    background-color: #4d4dff;
+    display: block;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.link:hover{
+    border: 1px solid black;
+    background-color: #2222fa ;
+}
+
+/*header*/
+header{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+header > label > select {
+    margin-left: 10px;
+}
+
+.container{
+    padding:  50px  50px;
+}
+
+
+
+
+.filter > #input-container > label:last-of-type{
+    margin-right: 0px;
+}
+
+.VictoryContainer {
+    width: 80%;
+    height: auto;
+}
+
+/* */
+
+

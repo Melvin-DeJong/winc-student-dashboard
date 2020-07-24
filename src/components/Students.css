@@ -1,0 +1,65 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #b4b4b4;
+}
+
+
+
+
+.testimonial {
+    width: 400px ;
+    min-height: 400px;
+    margin: 100px auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.3);
+    display: flex;
+    flex-flow: column;
+    justify-content:space-between;    
+}
+
+.content {
+    padding: 2em;
+    font-size: large;
+}
+
+
+.image img{
+    border: solid 1px white;
+    border-radius: 50%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -50%;
+    left: 40%;
+    border: 5px solid white;
+    display:flex;
+    justify-content:center;
+}
+
+
+.bottom{
+    background-color: #4d4dff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position:relative;
+    height: 100px;
+}
+
+.name{
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+#studentPageTitle{
+    padding-top: 100px;
+    text-align: center;
+}
