@@ -4,7 +4,7 @@
 
 /*Menu*/
 .menu {
-    background-color: orange;
+    background-color: #ffa600;
     margin-top: 0;
     margin-bottom: 20px;
     height: 50px;
@@ -37,14 +37,38 @@
     background-color: #2222fa ;
 }
 
+
 /*header*/
 header{
     margin-bottom: 10px;
     padding: 10px;
     border-bottom: 1px solid black;
 }
+
+header > button {
+    min-height: 50px;
+    min-width: 150px;
+    background-color: #2222fa;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+}
+
+header > label {
+    margin: 10px; 
+    margin-left: 200px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
 header > label > select {
-    margin-left: 10px;
+    margin: 10px;
+    min-height: 50px;
+    min-width: 150px;
+    background-color: #2222fa;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
 }
 
 .container{
@@ -52,17 +76,86 @@ header > label > select {
 }
 
 
+/* filter/chart */
+.filter {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 20px;
+    background-color: #ffa600;
+    color: black;
+}
 
+.filter > #input-container {
+    margin: 10px;
+    min-height: 100px;
+}
 
-.filter > #input-container > label:last-of-type{
-    margin-right: 0px;
+.filter > #input-container > label {
+    display: block;
+    float: left;
+    background-color: #2222fa;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.filter > #input-container > label:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.filter > #input-container > label:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.filter > #input-container > label input{
+    margin: 10px;
 }
 
 .VictoryContainer {
+    margin: 10px;
     width: 80%;
     height: auto;
 }
 
-/* */
+
+
+#underConstruction {
+    color: #353535;
+    margin: 30px;
+}
+
+.filter-students {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 20px;
+    background-color: #ffa600;
+    color: black;
+}
+
+.filter-students > #input-student-container {
+    margin: 10px;
+    min-height: 200px;
+}
+
+.filter-students > #input-student-container > label {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    float: left;
+    background-color: #2222fa;
+    color: white;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.filter-students > #input-student-container > label input{
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+
 
 
